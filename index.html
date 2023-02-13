@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1>Movies</h1>
+    <div>
+    <label>Title</label>
+    <input type="text" id="title" placeholder="Enter movie title">
+    <label>Genre</label>
+    <input type="text" id="genre" placeholder="Enter movie genre">
+    <button id="search">Search</button>
+    </div>
+    <br/>
+    <div>
+    <button onclick="sortByTitle()">sort by title</button>
+    <button onclick="sortByGenre()">sort by genre</button>
+    <ul id="results"></ul>
+    </div>
+    <h2>Movies Type and their count</h2>
+    <ul id="count"></ul>
+    
+</body>
+</html>
